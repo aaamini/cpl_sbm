@@ -1,3 +1,5 @@
+addpath(fullfile('.','cpl_m_code'))
+
 tic, fprintf('%-40s','Setting up the model ...')
 n = 80; % number of nodes
 K = 2;    % number of communities
